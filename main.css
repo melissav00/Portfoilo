@@ -30,9 +30,9 @@ header p {
 }
 
 nav col-sm-3 text-right{
-	float: right;
+	float: auto;
 	margin-right: 30px;
-    padding: 8px 18px;
+    	padding: 8px 18px;
   	border: 1px solid #204156;
 	position: relative;
   	bottom: 2px;
@@ -87,7 +87,7 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  color: #BFD9EE;
   text-shadow: none;
   background-color: #ffffff;
 }
