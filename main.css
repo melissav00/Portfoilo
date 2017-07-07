@@ -75,7 +75,7 @@ section .row img {
 
 .col-sm-2{
 	margin: 0 0 5px;
-}
+	}
 
 .col-sm-5 {
 	margin: 0 0 5px;
@@ -120,3 +120,21 @@ nav ul {
   display: inline;
 }
 
+footer {
+	font-size: 12px;
+	padding:20px 0;
+}
+
+footer .col-sm-8 {
+	display:flex;
+	justify-content: flex-end;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
