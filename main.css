@@ -7,6 +7,7 @@ header {
   padding: 20px 0;
 }
 
+
 header .row,
 footer .row {
   display: flex;
@@ -28,22 +29,6 @@ header p {
   margin: 0;
 }
 
-/* Footer Nav*/
-
-nav {
-  background-color: #FFF;
-}
-
-nav li {
-  margin: 0;
-  padding: 0 10px;
-  display:inline;
-}
-
-nav ul {
-  display: inline;
-}
-
 .contact-btn {
 	float: right;
 }
@@ -60,3 +45,78 @@ nav ul {
   position: relative;
   bottom: 2px;
 }
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('http://ciolentin.ro/img/caption/blogging_2.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-sm-2{
+	margin: 0 0 5px;
+}
+
+.col-sm-5 {
+	margin: 0 0 5px;
+}
+
+.col-md-6 {
+  margin: 0 0 25px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+/* Footer Nav*/
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display:inline;
+}
+
+nav ul {
+  display: inline;
+}
+
