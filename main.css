@@ -108,6 +108,7 @@ section .row img {
   color: #29B3C7;
   text-shadow: none;
   background-color: #ffffff;
+  font-size: 1.25em;
 }
 
 .btn.btn-primary:hover {
