@@ -7,6 +7,10 @@ header {
   padding: 20px 0;
 }
 
+h1{
+	text-align:center;
+}
+
 
 header .row,
 footer .row {
@@ -29,15 +33,35 @@ header p {
   margin: 0;
 }
 
-nav col-sm-3 text-right{
-	float: auto;
-	margin-right: 30px;
-    	padding: 8px 18px;
-  	border: 1px solid #204156;
-	position: relative;
-  	bottom: 2px;
+.navbar {
+	display:inline-block;
+	float:none;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    text-align:center
 }
 
+.nav navbar-nav navbar-right{
+	text-align:center
+}
+
+.navbar li a, .navbar .navbar-brand {
+	display: flex;
+  	align-items: center
+	}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000000 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
 .jumbotron {
   display: flex;
   align-items: center;
@@ -47,6 +71,18 @@ nav col-sm-3 text-right{
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
+
+.col-sm-7{
+	background-image: url('http://yiworks.com/wp-content/uploads/2016/11/Light-Grey-Background-Hd-5-1.jpg');
+	display: flex;
+  	align-items: center;
+   	background-size: cover;
+  	color: #ffffff;
+ 	height: 500px;
+  	text-shadow: 0.25px 0.25px 0.25px #000000;
+
+}
+
 
 .jumbotron h2 {
   font-size: 60px;
@@ -69,11 +105,19 @@ section .row img {
 	margin: 0 0 5px;
 	}
 
-.col-sm-5 {
-	margin: 0 0 5px;
-	font-size: 12px;
+.change{
+	margin-bottom: 0;
+    background-color: #D3D3D3;
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    text-align:center;
+    font-family: Garamond, sans-serif;
+  	font-size:24px;
 }
-
 
 .col-md-6 {
   position: absolute;
@@ -123,6 +167,10 @@ section .row img {
   margin: 0 0 30px;
 }
 
+table{
+	color:black;
+}
+
 /* Footer Nav*/
 
 nav {
@@ -130,7 +178,14 @@ nav {
   font-size: 1.25em;
   font-weight: bold;  
   background-color: #FFF;
+
 }
+
+navbar-nav col-sm-3 a:hover, .navbar-nav col-sm-3.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
 
 nav li {
   margin: 0;
@@ -152,6 +207,12 @@ nav ul {
 footer {
 	font-size: 12px;
 	padding:20px 0;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
 }
 
 footer .col-sm-8 {

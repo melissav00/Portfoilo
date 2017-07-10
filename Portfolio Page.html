@@ -7,53 +7,90 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 	<header class="container">
+		<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="row">
-			<h1 class="col-sm-6">Melissa Venedicto</h1>
-			<nav class="col-sm-3 text-right">
-				<p>Home</p>
-				<p>Portfolio</p>
-				<p>About</p>
-				<p>Work</p>
-				<p class=".contact-btn">Contact</p>
-			</nav>
+		 <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> 
+			</button>
+      <a class="navbar-brand" href="#">Melissa Venedicto</a>
 		</div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+		</div>
+	</nav>
 	</header>
 	<section class="jumbotron">
 		<div class="container">
 			<div class="row text-center">
 				<h2>Inspiring Web Developer & Scientist.</h2>
 				<h3>Producing high quality responsive websites with exceptional user experience.</h3>
-				<a class="btn btn-primary" href="#" role="button">View Portfolio</a>
+				<a class="btn btn-primary" href="#portfolio" role="button">View Portfolio</a>
 			</div>
 		</div>
 	</section>
 	<section class="container">
 		<div class="row">
+			<h1 id="portfolio">Portfolio</h1>
 			<figure class="col-sm-5">
 				<p>Websites</p>
-				<img src="https://s-media-cache-ak0.pinimg.com/originals/f4/7f/d8/f47fd896add554744b4114d964b61b41.gif"/>
+				<img src="https://s-media-cache-ak0.pinimg.com/originals/f4/7f/d8/f47fd896add554744b4114d964b61b41.gif" width="400" height="300"/>
 			</figure>
 			<figure class="col-sm-5">
 				<p>Apps</p>
-				<img src="https://businessfirstfamily.com/wp-content/uploads/2017/02/technology-background-build-app.jpg"/>
+				<img src="https://businessfirstfamily.com/wp-content/uploads/2017/02/technology-background-build-app.jpg" width="400" height="300"/>
 			</figure>
 		</div>
 		<div class="row">
 			<figure class="col-sm-5">
 				<p>Games</p>
-				<img src="https://i.imgur.com/TxRMrV1.jpg?1"/>
+				<img src="https://i.imgur.com/TxRMrV1.jpg?1" width="400" height="300"/>
 			</figure>
 			<figure class="col-sm-5">
 				<p>Projects</p>
-				<img src="https://i.ytimg.com/vi/V5yv5TNpiLE/maxresdefault.jpg"/>
+				<img src="https://i.ytimg.com/vi/V5yv5TNpiLE/maxresdefault.jpg" width="400" height="300"/>
 			</figure>
 		</div>
+	</section>
+	
+	<section class="container">
+		<h1 id="about">About</h1>
+		<div class="row">
+			<figure class="col-sm-7">
+				<h2>Things I Desire to Learn</h2>
+				<table>
+					<tr>
+						<th>Computer</th>
+						<th>Science</th>
+					</tr>
+					<tr>
+						<th><ul>
+							<li>Advanced Python</li>
+							<li>Advanced Web Development</li>
+							<li>Web Design with Adobe</li>
+							</th>
+						<th><ul>
+							<li>Advanced Chemsitry</li>
+							<li>Physics</li>
+							<li>Quantum Physics</li>
+							</th>
+				</table>
 	</section>
 	<footer class="container">
 		<div class="row">
 		<p class="col-sm-4">
+		<a href="#myPage" title="To Top">
+		<span class="glyphicon glyphicon-chevron-up"></span>
 			&copy; Melissa Venedicto's Portfolio
 		</p>
 		<ul class="col-sm-8">
