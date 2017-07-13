@@ -72,27 +72,37 @@ header p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.col-sm-7{
+table{
 	background-image: url('http://yiworks.com/wp-content/uploads/2016/11/Light-Grey-Background-Hd-5-1.jpg');
-	display: flex;
-  	align-items: center;
-   	background-size: cover;
-  	color: #ffffff;
- 	height: 500px;
-  	text-shadow: 0.25px 0.25px 0.25px #000000;
-
 }
 
-.col{
-	padding-right:-300px;
-  	align-items: right;
-   	background-size: cover;
-  	color: #ffffff;
- 	height: 500px;
-  	text-shadow: 0.25px 0.25px 0.25px #000000;
-	background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ8NDQ0NDQ0NDQ0NDQ0NDw8NDQ0NFREWFhURFRUYHSggGBoxJxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAMkA+wMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAgMBBgT/xAAYEAEBAQEBAAAAAAAAAAAAAAAAAQIREv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AO1ADTADQDA0AwNbIDONkNI2QGSNkNIaQCcbw8ybyCfBxTy3yCXBxXyzyCXGcV8ssBKxlithbASsZxSxlgJg1jAYGgGBrAAAAAAA1jQADYAkNIJDyAyQ8gkUkAsyaZNIeZAky3ypMtmRU/I8q+W+QR8jyt5ZcgjcluV7C2AjYWxawtgiNhLFrC2AjYyxSwtgJg1YDAADAAAAAAACNhoWHgpoeRkh8wDSHkZmKSCiQ8jZDyAWQ0yeZNMgn5b5U8t8gl5ZcreWXIIXJbF7klyCNhLF7CWAhYWxaxOwErCVWwlgiVLVKWgQNYAY1gAAAABBDRSEimRTZUzCZVzAPmKZhcxTMFNmKSMzFMwBIaRsh5EUsy3ypI3yCXllyt5LYCNySxe5JYohYnqL6ieoIjqJ2LaieoCNhKrqJ6ETpKpU6BKxtYAYAAAABsYaAaKZJD5BTKuU8q5BTMUzCZVyKfMVzCZVzBTZh5GZikiAkbw0huAn5ZYrwtgI2EsW1E9QEdRLUX1EtAjqJai+ktKiOk9K6T0CWk6rpPQidKalAMAAANBhoyGgGimSZUzAPlXJMxXMFUyrlPKuQUyrlPKuUVTKmU8q5A0h+FyeCssLYeloJaieldJ6ER0lpbSWgS0lpXSelRHSeldJaBLSeldJ6ETpKekoBjWAAADTQhoCsUyllTIK5VyjlXIq2Vco5VzQWyrlDNVzUVbKmajmqSgrKaVKU3RT9LazrLQZqp6prU9UQuqlo+qlqgTSej6qWqqE0no+k9AnpPR9J6EJSU1KAYAAAAA0K2AplTKUp80Fs1XNQzVc0Fs1XNQzVM0V6M1TNQzVM0F808qEp5UVaVvUppvoFOstJ6ZdAa1O0XRLQGqlqt1U9VUZqp6rdVPVAuqnqm1SaoE0no9qdELStrADGsAAAAAFQ0PE4eVFVzVM1GU+aC+apmoZqmaKvmqSoSnlBeU8qE0aaBeaHpL030iqemXRPRfSh7S2luiXQhrU9UWk1QZqp2t1SWgy0lotJaIykprSUGVjWAGNYAAABjQIDSkbAUlPKlKeUVbNUlQlPKC8p5pCU8oq00aaRlNNAt6b6R9N9Ap6ZdE9MugPdFuiXRboDWltLaW0G2p2ttJaIy0totLaAtKKAYAAYGsAAAAAAADRGSnlK2CnlNKSGlBSU00lKaUFpps0lK30CvpvpL0PQqvpnpP0PQhrot0y0toGui3TLS2g20totL0Bay0WsAAAGAAAwAAAAAABoYAaAAbK2UoA8pup9b0FOt6l1vQU6Ok6Ogp1nSdHQP0vS9Z0DdZaXrOgbrOsANDADWAAAAAYAAAAAAAAAAAAAAAAADR1gBvR1gA3WdYAb0MAAAAAAAAAAAAAAAAAP//Z');
+h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+    .col {
+        text-align: center;
+        margin: 25px 0;
+    }
 }
 
+.container-fluid {
+    padding: 60px 50px;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
 
 .jumbotron h2 {
   font-size: 60px;
@@ -181,12 +191,46 @@ table{
 	color:black;
 }
 
-/* Footer Nav*/
+/*Coming Soon Page*/
+.bgimg {
+	background-image: url('forest-bridge.jpg');
+	height:100%;
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	color:white;
+	font-family:Garamond, sans-serif;
+	font-size:25px;
+	padding-right:100px;
+	width:100%;
+}
 
+.middle{
+
+	transform:translate(-50%,-50%);
+	text-align:center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+.topleft{
+	position:absolute;
+	left:460px;
+}
+
+.bottomleft{
+	position:absolute;
+	left:460px;
+}
+
+/* Footer Nav*/
 nav {
   position: absolute;
   font-size: 1.25em;
-  font-weight: bold;  
+  font-weight: bold;
   background-color: #FFF;
 
 }
@@ -214,6 +258,7 @@ nav ul {
   font-size:1.55em;
 }
 
+
 footer {
 	font-size: 12px;
 	padding:20px 0;
@@ -225,7 +270,7 @@ footer .glyphicon {
     color: #f4511e;
 }
 
-footer .col-sm-8 {
+footer .col-sm-7 {
 	display:flex;
 	justify-content: flex-end;
 }
@@ -237,4 +282,35 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+/*Animation of Navbar */
+.slideanim{visibility:hidden;}
+.slide{
+  animation-name: slide;
+  -webkit-animation-name:slide;
+  animation-duration: 1s;
+  -webkit-animation-duration:1s;
+  visibility:visible;
+}
+
+@keyframes slide {
+  0%{
+    opacity: 0;
+    transform:translateY(70%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide{
+  0%{
+    opacity: 0;
+    -webkit-transform:translateY(70%);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }
